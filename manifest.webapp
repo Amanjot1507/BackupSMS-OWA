@@ -1,0 +1,36 @@
+{
+  "version": "0.1.0",
+  "name": "Backup SMS",
+  "description": "An Open Web Application for the backup and restore of SMS messages on the user's phone",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Amanjot Singh"    
+  },
+  "type": "certified",
+  "permissions": {
+    "device-storage:sdcard":{
+      "description":"Required for backing up messages on the sdcard",
+      "access":"readwrite"
+    },
+      "sms":{
+      "description":"Required for accessing SMS"
+    }
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+    "es": {
+      "name": "Aplicación vacía privilegiada",
+      "description": "Una plantilla con la mínima estructura",
+      "permissions": {}
+    }
+  },
+  "default_locale": "en"
+}
