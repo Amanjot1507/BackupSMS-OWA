@@ -1,15 +1,20 @@
 <html>
     <head>
         <title> Import / Export SMS </title>
+        <link rel="stylesheet" type="text/css" href="/css/style.css" />
         <script src="/js/import.js"></script>
         <script src="/js/export.js"></script>
     </head>
-    <body>
+    <body id="body">
+        <header>
+            <h1 id="title"> Backup SMS </h1>
+        </header>
         <div id="Buttons"> 
-            <input type="button" id="importButton" value="Import" /> 
-            <input type="button" id="exportButton" value="Export" />
+            <input type="button" id="importButton" value="Import SMS" /> 
+            <input type="button" id="exportButton" value="Export SMS" />
+            <input type="button" id="backupButton" value="Backup Selected Messages" />
         </div>
-        <div id="Messages">                  <!--> Used for displaying messages; not yet implemented <!-->
+        <div id="Messages">                  
         </div>
        
     </body>
